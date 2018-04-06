@@ -1,0 +1,208 @@
+/* NAVIGATION */
+nav {
+	background-color: #05375D;
+}
+nav button{
+	position: absolute;
+	top: 1.25rem;
+	right: 2%;
+}
+nav ul {
+	display: flex; 
+	display: -ms-flexbox;
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	margin: 0; 
+	padding: 0;}
+nav ul.show{
+	display: flex;
+	display: -ms-flexbox;
+	}
+nav ul.hide{display: none;}
+
+nav ul li {
+	list-style-type: none;
+	flex-basis: 100%;
+	-ms-flex: 100%;
+}
+
+nav ul li a {
+    display: block;
+    color: darkgrey;
+    text-align: center;
+    padding: .5rem 0;
+	font-size: 1rem;
+    text-decoration: none;
+	border-bottom: solid 1px #333;
+}
+
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+nav ul li.active a {
+	background-color: #022845;
+}
+
+/* MAIN */
+.hideSmall{display:none;}
+
+h1,h2,h3{
+	 font-family:Nunito;	
+}
+
+h1 {
+    font-size: 30px;
+    color: whitesmoke;
+	margin-left:2%
+}
+
+h2 {
+    font-size: 25px;
+
+}
+h3 {
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid #bbb;
+	
+	
+}
+
+
+body { 
+    font-size: 14px; 
+    line-height: 20px;
+    font-family: Montserrat;
+    color: whitesmoke;
+	background-color: #333;
+}
+
+
+nav ul.weatherData {
+	display: flex; 
+	display: -ms-flexbox;
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	padding: 16px;
+	}
+table {
+	font-size: 16px;
+	padding:14px;
+	justify-content: center;
+}
+
+th{
+	padding:25px;
+}
+td{
+	padding:10px
+}
+
+header, main, footer {
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 1500px;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: #1A5888;
+    color: whitesmoke;
+}
+
+main figure.photoFullWidth{
+	margin: 0;
+	width: 90%;}
+main figure.photoFullWidth img {width: 100%;}
+
+/* ------ HOME -------*/
+figure.homeImg{
+	margin: .6rem 2%;
+	width:96%;
+   }
+figure.homeImg img {width: 100%;}
+/* ------ END HOME -------*/
+
+/* ------ GALLERY -------*/
+
+main figure.galleryPhotos{
+	display: grid;
+	grid-template-columns: 2fr;
+	width: 95%;
+	grid-gap: 2rem;
+   }
+main figure.galleryPhotos img {width: 100%;}
+
+/* ------ END GALLERY -------*/
+
+/* --------- Storm Center----------*/
+
+form#stormCenter{
+	margin: 1em 3%;
+}
+
+fieldset{
+	background-color: darkgray;
+	border-radius: .8em;
+	margin: 1.5em 0;
+	border: #1A5888 solid 1px;
+}
+
+legend {
+	color:  #1A5888;
+	margin-left: 6%;
+	padding: .5em;
+	border: #1A5888 solid 1px;
+	background-color: gainsboro;
+	border-radius: .4em;
+}
+
+label{
+	display: block;
+	margin: .5em;
+}
+
+label span{
+	display: block;
+	font-size: 1em;
+	color:  #1A5888;
+	padding-top: .9em;
+	padding-bottom: .2em;
+}
+
+input.submitBtn{
+	-webkit-appearance:none;
+	color: whitesmoke;
+	border: solid 1px #022845;
+	width:30%;
+	margin: .5em 0;
+	font-size: 1em;
+	padding: .6em;
+	background: #05375D;
+	box-shadow: 4px 4px 10px #777;
+}
+main figure.stormCenterPhotos{
+	display: grid;
+	grid-template-columns: 2fr;
+	width: 75%;
+	grid-gap: 2rem;
+   }
+main figure.stormCenterPhotos img{width: 100%}
+/* --------- END Storm Center------*/
+
+
+
+
+footer {
+    font-size: 16px;
+	font-family: Nunito Vernon Adams;
+}
+
+/*---- OTHER ----*/
+.clearfix:after, .row:after {
+	content:"";
+	display: table;
+	clear: both;
+}

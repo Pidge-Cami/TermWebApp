@@ -1,0 +1,7 @@
+{
+"Workout1":[
+    {"exerciseName":"Squats", "repCount":"50"}, 
+    {"exerciseName":"Lunges", "repCount":"25 each side"},
+    {"exerciseName":"Jump Squats", "repCount":"25"}
+]
+}
